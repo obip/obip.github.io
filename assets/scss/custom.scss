@@ -1,0 +1,42 @@
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img {
+    object-fit:scale-down;
+    min-width: 250px;
+}
+
+// Display partners widgets for mobile devices
+@media only screen and (max-width: 600px) {
+    .avatar {
+        margin-bottom: 5%;
+    }
+    .avatar img {
+        min-width: 0;
+    }
+}
+
+// Center images
+.medium-zoom-image{
+    margin: 0 auto;
+}
+
+section#partners {
+    padding: 20px 0 20px 0;
+}
+
+section#blank1 {
+    padding: 40px 0 110px 0;
+}
+
+// Remove project page footer
+div.share-box {
+    display: none;
+}
+
+div.author-card {
+    display: none;
+}
