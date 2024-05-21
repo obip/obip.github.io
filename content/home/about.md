@@ -1,5 +1,6 @@
 ---
 # Documentation: https://wowchemy.com/docs/page-builder/
+# ![Alt text](OMI-Deutschland.png)
 widget: pages
 headless: true
 weight: 20
@@ -22,4 +23,5 @@ design:
   view: 3
   columns: '1'
 ---
-<center>{{< figure src="../../assets/media/UME-9.svg" caption="OMI Consortium" numbered="false" >}}</center>
+<center>{{< figure src="UME-9.svg" caption="OMI Consortium" numbered="false" >}}</center>
+
