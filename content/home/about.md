@@ -23,5 +23,5 @@ design:
   view: 3
   columns: '1'
 ---
-<center>{{< figure src="UME-9.svg" caption="OMI Consortium" numbered="false" >}}</center>
+<center>{{< figure src="OMI-Deutschland.png" caption="OMI Consortium" numbered="false" >}}</center>
 
