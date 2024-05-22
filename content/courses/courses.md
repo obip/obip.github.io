@@ -55,15 +55,15 @@ advanced:
   </thead>
   <tbody>
      <tr>
-      <th scope="row">1. Plenar Meeting in <a href="/talk/1.-plenar-meeting/" style="color: #f45b59;">(Virtual)</a></th>
+      <th scope="row">1. Plenar Meeting in <a href="/MII-UseCase-OMI/talk/1.-plenar-meeting/" style="color: #f45b59;">(Virtual)</a></th>
       <td>02.11.2023</td>
     </tr>
      <tr>
-      <th scope="row">Kick-Off <a href="/talk/kick-off-meeting/" style="color: #f45b59;">(Essen)</a></th>
+      <th scope="row">Kick-Off <a href="/MII-UseCase-OMI/talk/kick-off-meeting/" style="color: #f45b59;">(Essen)</a></th>
       <td>27.07.2023 + 28.07.2023</td>
     </tr>
        <tr>
-      <th scope="row">Pre Kick-Off Meeting <a href="/talk/pre-kick-off-meeting/" style="color: #f45b59;">(Virtual)</a></th>
+      <th scope="row">Pre Kick-Off Meeting <a href="/MII-UseCase-OMI/talk/pre-kick-off-meeting/" style="color: #f45b59;">(Virtual)</a></th>
       <td>19.06.2023</td>
     </tr>
      
