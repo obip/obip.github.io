@@ -17,7 +17,7 @@ main:
     url: 'works-package'
     weight: 30
   - name: Events
-    url: 'courses'
+    url: 'talk'
     weight: 40
   - name: Publications
     url: 'publication'
