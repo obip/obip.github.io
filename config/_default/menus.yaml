@@ -5,7 +5,7 @@
 
 main:
   - name: About
-    url: 'about'
+    url: '#partners'
     weight: 10
   - name: Partners
     url: 'people'
