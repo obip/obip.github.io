@@ -39,7 +39,7 @@ advanced:
   </thead>
   <tbody>
     <tr>
-      <th scope="row">2. Plenar Meeting <a href="/talk/2.-plenar-meeting/" style="color: #f45b59;">(Munich)</a></th>
+      <th scope="row">2. Plenar Meeting <a href="/MII-UseCase-OMI/talk/2.-plenar-meeting/" style="color: #f45b59;">(Munich)</a></th>
       <td>22.01.2024 + 23.01.2024</td>
     </tr>
   </tbody>
