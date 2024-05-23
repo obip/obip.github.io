@@ -1,6 +1,6 @@
 ---
 title: Roll-out and Evaluation
-summary: "Lead: [Technical University Munich](/authors/tum/)"
+summary: "Lead: [Technical University Munich](/MII-UseCase-OMI/authors/tum/)"
 weight: 8
 tags:
  - Evaluation
