@@ -11,7 +11,7 @@ profile: false
 #   render: never
 #   list: always
 ---
-This WP will implement the generic adapter component that enables RESTful access to legacy PACS and other DICOM nodes via a subset of the DICOMwebTM API specification.
+This WP will implement the generic adapter component that enables RESTful access to legacy PACS and other DICOM nodes via a subset of the DICOMwebTM API specification. 
 
 Objectives
 
@@ -20,3 +20,5 @@ Objectives
 **[2]** Robust and performant transfer of large amounts of imaging data with high parallelism from multiple PACS to multiple clients.
 
 **[3]** Automatic de-identification of personal data and on-demand transcoding of transferred images in commonly used file formats like NifTi, NRRD and others.
+
+The DICOM-RST that implements a DICOMweb-compatible HTTP server with support for QIDO-RS, WADO-RS and STOW-RS is open-access and the repository is downloadable at the <a href="[https://www.bmbf.de/bmbf/en/home/home_node.html](https://github.com/UMEssen/DICOM-RST)">UMEssen IKIM GitHub pages</a>
