@@ -1,6 +1,6 @@
 ---
 title: Reference gateway server implementation
-summary: "Lead: [University Medical Center Essen](/authors/ume/)"
+summary: "Lead: [University Medical Center Essen](/MII-UseCase-OMI/authors/ume/)"
 weight: 4
 tags:
 - Implementation
