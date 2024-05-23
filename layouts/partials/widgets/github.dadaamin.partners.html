@@ -1,0 +1,12 @@
+
+{{ $dic := resources.Get (printf "media/diz_logo.jpg") }}
+{{ $ship := resources.Get (printf "media/ship_logo.png") }}
+
+<div class="row justify-content-center people-widget">
+    <div class="avatar">
+        <img src="{{$dic.RelPermalink}}">
+    </div>
+    <div class="avatar">
+        <img src="{{$ship.RelPermalink}}">
+    </div>
+</div>
