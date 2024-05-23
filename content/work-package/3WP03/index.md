@@ -1,6 +1,6 @@
 ---
 title: DICOMwebTM adapter
-summary: "Lead: [University Medical Center Essen](/authors/ume/)"
+summary: "Lead: [University Medical Center Essen](/MII-UseCase-OMI/authors/ume/)"
 weight: 3
 tags:
  - Implementation
