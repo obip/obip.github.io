@@ -1,6 +1,6 @@
 ---
 title: Project Management
-summary: "Lead: [University Medical Center Essen](/authors/ume/)"
+summary: "Lead: [University Medical Center Essen](/MII-UseCase-OMI/authors/ume/)"
 weight: 9
 tags:
 date: 2023-07-01
