@@ -1,6 +1,6 @@
 ---
 title: Specification of the Open Medical Inference Protocol
-summary: "Lead: [MOLIT](/authors/molit/) "
+summary: "Lead: [MOLIT](/MII-UseCase-OMI/authors/molit/) "
 weight: 1
 tags: 
  - Specification
