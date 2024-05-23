@@ -1,6 +1,6 @@
 ---
 title: Service registry
-summary:  "Lead: [Technical University Munich](/authors/tum/)"
+summary:  "Lead: [Technical University Munich](/MII-UseCase-OMI/authors/tum/)"
 weight: 6
 tags:
 - Implementation
