@@ -1,6 +1,6 @@
 ---
 title: Specification of the medical imaging extension of the MII CDS
-summary: "Lead: [University Hospital Erlangen](/authors/uker/)"
+summary: "Lead: [University Hospital Erlangen](/MII-UseCase-OMI/authors/uker/)"
 weight: 2
 tags:
 - Specification
