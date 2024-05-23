@@ -1,6 +1,6 @@
 ---
 title: AI Governance and Ethics Framework
-summary:  "Lead: [University Hospital Erlangen](/authors/uker/)"
+summary:  "Lead: [University Hospital Erlangen](/MII-UseCase-OMI/authors/uker/)"
 weight: 7
 date: 2023-07-01
 tags:
