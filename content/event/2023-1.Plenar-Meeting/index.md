@@ -1,12 +1,12 @@
 ---
-title: 1. Plenar Meeting
+title: 1. Plenary Meeting
 
 profile: false
 
 location: Online
 
 
-summary: 1. online plenar meeting
+summary: 1. online plenary meeting
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
