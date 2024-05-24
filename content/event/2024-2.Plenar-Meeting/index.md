@@ -3,7 +3,7 @@ title: 2. Plenary Meeting
 
 profile: false
 
-location: Munich
+location:  Hörsaal P, Klinikum rechts der Isar, Munich
 
 
 summary: 2nd. plenary meeting on site
