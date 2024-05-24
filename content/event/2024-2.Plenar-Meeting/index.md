@@ -1,5 +1,5 @@
 ---
-title: 2. Plenar Meeting
+title: 2. Plenary Meeting
 
 profile: false
 
