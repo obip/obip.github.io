@@ -18,4 +18,4 @@ The DICOM-RST that implements a DICOMweb-compatible HTTP server with support for
 
 We're gathering information about potential compatibility issues with various PACS vendors, so feel free to experiment and report issues.
 
-Currently, the DIMSE backend is implemented, which translates DICOMweb requests into DIMSE-C operations.
+Currently, the DIMSE backend is implemented, which translates DICOMweb requests into DIMSE-C operations!
