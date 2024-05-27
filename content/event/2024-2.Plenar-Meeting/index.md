@@ -143,3 +143,4 @@ Prof. Dr. Hans-Ulrich Prokosch, UKEr</td>
     </tr>
   </tbody>
 </table>
+<img src="plenar2.jpg" alt="Description of Image">
