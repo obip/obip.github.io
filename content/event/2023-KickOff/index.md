@@ -31,7 +31,7 @@ tags: []
 featured: false
 
 ---
-<center>{{< figure src="kickoff.jpg caption="" numbered="false" >}}</center>
+{{< figure src="kickoff.jpg caption="Bla" numbered="false" >}}
 ## Schedule
 Thursday July 27th
 
