@@ -37,7 +37,7 @@ Tuesday April 16th
   <tbody>
      <tr>
       <th>Welcome and Introduction</th>
-      <td>Felix Nensa, Hans-Ulrich Prokosch, Martin Boeker, Rickmer Braren</td>
+      <td>Prof. Dr.  Felix Nensa, Prof. Dr. Hans-Ulrich Prokosch, Prof. Dr. Martin Boeker, Prof. Dr. Rickmer Braren</td>
     </tr>
     <tr>
       <th>AP1 (Spezifikation des OMI Protokolls)</th>
