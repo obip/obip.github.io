@@ -44,7 +44,7 @@ Monday January 22nd
      <tr>
       <td>15:30 - 15:35  </td>
       <th>Welcome and Introduction</th>
-      <td>Felix Nensa, Hans-Ulrich Prokosch, Martin Boeker, Rickmer Braren</td>
+      <td>Prof. Dr. Felix Nensa, Prof. Dr.  Hans-Ulrich Prokosch, Prof. Dr.  Martin Boeker, Prof. Dr.  Rickmer Braren</td>
     </tr>
        <tr>
       <td>15:35 – 16:05 </td>
@@ -59,7 +59,7 @@ Monday January 22nd
      <tr>
       <td>16:20 – 16:40 </td>
       <th>OMI Service Registry</th>
-      <td>Dmitrii Seletkov, Tobias Susetzky, TUM</td>
+      <td>Dmitrii Seletkov, TUM; Tobias Susetzky, TUM</td>
     </tr>
        <tr>
       <td>16:40 – 16:50 </td>
