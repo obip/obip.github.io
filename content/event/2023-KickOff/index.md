@@ -31,7 +31,6 @@ tags: []
 featured: false
 
 ---
-{{< figure src="kickoff.jpg caption="Bla" numbered="false" >}}
 ## Schedule
 Thursday July 27th
 
@@ -170,4 +169,4 @@ Thursday July 27th
     </tr>
   </tbody>
 </table>
-
+<img src="kickoff.jpg" alt="Description of Image">
