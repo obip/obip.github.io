@@ -21,4 +21,4 @@ Objectives
 
 **[3]** Automatic de-identification of personal data and on-demand transcoding of transferred images in commonly used file formats like NifTi, NRRD and others.
 
-The DICOM-RST that implements a DICOMweb-compatible HTTP server with support for QIDO-RS, WADO-RS and STOW-RS is open-access and the repository is downloadable at the <a href="[https://www.bmbf.de/bmbf/en/home/home_node.html](https://github.com/UMEssen/DICOM-RST)">UMEssen IKIM GitHub pages</a>
+The DICOM-RST that implements a DICOMweb-compatible HTTP server with support for QIDO-RS, WADO-RS and STOW-RS is open-access and the repository is downloadable at the <a href="https://github.com/UMEssen/DICOM-RST">UMEssen IKIM GitHub pages</a>
