@@ -18,7 +18,7 @@ user_groups:
 
 
 
-<br>The TUM School of Medicine and Health – University Medical Center "Klinikum rechts der Isar” is one the partners of the <a href="https://difuture.de" style="color: #f55957 !important;">DIFUTRE</a> Medical Informatics (<a href="https://www.medizininformatik-initiative.de/en/start" style="color: #f55957 !important;">MII</a>) Consortium.
+<br>The TUM School of Medicine and Health – University Medical Center "Klinikum rechts der Isar” is one the partners of the <a href="https://difuture.de" style="color: #f55957 !important;">DIFUTURE</a> Medical Informatics (<a href="https://www.medizininformatik-initiative.de/en/start" style="color: #f55957 !important;">MII</a>) Consortium.
 <style>
   .bottom-three {
     margin-bottom: 2 cm;
