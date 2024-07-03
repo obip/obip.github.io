@@ -11,7 +11,7 @@ user_groups:
 ---
 **Principal Investigators**
 -	<a href="https://www.imi-frankfurt.de/das-team-der-mig/" style="color: #f55957 !important;"> Prof. Dr. Holger Storf </a> from the Institute for Medical Informatics.
--	<a href="https://radiologie-uni-frankfurt.de/institut/unser_team/index_ger.html" style="color: #f55957 !important;"> Dr. med. Andreas Bucher </a> from the Institute of Diagnostic and Interventional Radiology.
+-	<a href="https://radiologie-uni-frankfurt.de/klinik/index_ger.html" style="color: #f55957 !important;"> Dr. med. Andreas Bucher </a> from the Institute of Diagnostic and Interventional Radiology.
 
 
 
