@@ -38,6 +38,7 @@ Monday July 1st
   <tbody>
   </tbody>
 </table>
+<img src="4plenarymeeting.jpg" alt="Description of Image">
 
 <br>Tuesday July 2nd<br>
 
