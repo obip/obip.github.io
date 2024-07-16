@@ -103,7 +103,7 @@ Monday July 1st
     </tr>
     <tr>
       <td>18:00</td>
-      <th>End of Day 1</th>‚
+      <th>End of Day 1</th>
       <td>-</td>
     </tr>
     <tr>
