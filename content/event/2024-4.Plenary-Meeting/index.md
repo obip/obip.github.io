@@ -36,6 +36,81 @@ Monday July 1st
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>13:30 - 14:30 </td>
+      <th>_Arrival with Snacks_</th>
+      <td>-</td>
+    </tr>
+     <tr>
+      <td>14:30 </td>
+      <th>Greetings</th>
+      <td></td>
+    </tr>
+       <tr>
+      <td>14:30 </td>
+      <th>Location: Erlangen</th>
+      <td>Prof. Dr. Matthias May, Prof. Dr. Hans-Ulrich Prokosch. UKEr</td>
+    </tr>
+     <tr>
+      <td>14:40 </td>
+      <th>Project Management: OMI</th>
+      <td>Prof. Dr. Felix Nensa</td>
+    </tr>
+     <tr>
+      <td>14:45 </td>
+      <th>Review of one year of OMI</th>
+      <td>Prof. Dr. Felix Nensa, Dr. Obioma Pelka, UME</td>
+    </tr>
+       <tr>
+      <td>15:05 </td>
+      <th>Session 1</th>
+      <td>Prof. Dr. Hans-Ulrich Prokosch, UKEr</td>
+    </tr>
+    <tr>
+      <td>15:05 </td>
+      <th>Keynote Speech: AI in Healthcare - Practical Use and Legal Challenges in the Context of the European AI Regulation
+      <td>Philipp Müller-Peltzer (Law firm: Schürmann Rosenthal Dreyer)</td>
+    </tr>
+       <tr>
+      <td>15:35 </td>
+      <th>AP7: D7.1 Review of Guidelines and Framework for AI (Report, M12) </th>
+      <td>Timo Apfelbacher, UKEr</td>
+      <tr>
+      <td></td>
+      <th>AP7: The Path to the AI Policy of the University Hospital Erlangen </th>
+      <td>Prof. Dr. Hans-Ulrich Prokosch, UKEr</td>
+    </tr>
+     <tr>
+      <td>15:55</td>
+      <th>AP1: D1.3 First OMI Protocol FHIR Specification published on simplifier.net (M12) </th>
+      <td>Dr. Stefan Sigle (MOLIT EU), (Patrick Werner)</td>
+    </tr>
+     <tr>
+      <td>16:15</td>
+      <th>_Photo Session_</th>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>16:25</td>
+      <th>_Coffee Break_</th>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>17:00</td>
+      <th>AP4: D4.1 Minimum Viable Product (MVP) of the Gateway Server (M12)
+      <td>Jan Eil, UME</td>
+</th>
+    </tr>
+    <tr>
+      <td>18:00</td>
+      <th>End of Day 1</th>‚
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>19:00</td>
+      <th>Evening Event</th>
+      <td>-</td>
+    </tr>
   </tbody>
 </table>
 <img src="4plenarymeeting.jpg" alt="Description of Image">
