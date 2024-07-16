@@ -113,7 +113,6 @@ Monday July 1st
     </tr>
   </tbody>
 </table>
-<img src="4plenarymeeting.jpg" alt="Description of Image">
 
 <br>Tuesday July 2nd<br>
 
@@ -183,3 +182,4 @@ Monday July 1st
     </tr>
   </tbody>
 </table>
+<img src="4plenarymeeting.jpg" alt="Description of Image">
