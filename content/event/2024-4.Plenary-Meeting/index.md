@@ -125,6 +125,61 @@ Monday July 1st
         <th style="width: 35%">Moderation</th>
     </tr>
   </thead>
-  <tbody>   
+  <tbody>
+    <tr>
+      <td>09:00</td>
+      <th>Session 2</th>
+      <td>Prof. Dr. Matthias May, UKEr</td>
+    </tr>
+     <tr>
+      <td>09:00</td>
+      <th>Transformation of DICOM Metadata into FHIR Format to Enhance Cohort Selection in the Data Integration Center of the University Hospital Erlangen</th>
+      <td>Alexa Iancu, UKEr</td>
+    </tr>
+     <tr>
+      <td>09:30</td>
+      <th>AP2: D2.3 Preliminary specification completed (M12)</th>
+      <td>Lucas Scherer, UKEr</td>
+    </tr>
+     <tr>
+      <td>09:50</td>
+      <th>AP5: D5.2 MVP of the FHIR-based tool for metadata annotation (M12)</th>
+      <td>PD Dr. med. Sven Zenker, UKB</td>
+    </tr>
+     <tr>
+      <td>10:10</td>
+      <th>AP6: D6.1 Service architecture and implementation guidelines for the OMI Service Registry (M12)</th>
+      <td>Dmitrii Seletkov, Tobias Susetzky, Peter Pallaoro, TUM</td>
+    </tr>
+     <tr>
+      <td>10:30</td>
+      <th>Role of interoperability for AI applications in clinical routine</th>
+      <td>Sven Kohle (Siemens Healthineers), Alexis Laugerette (Siemens Healthineers)</td>
+    </tr>
+     <tr>
+      <td>11:15</td>
+      <th>Conclusion and Farewell</th>
+      <td>Prof. Dr. Hans-Ulrich Prokosch (UKEr), Prof. Dr. Matthias May (UKEr), Prof. Dr. Felix Nensa</td>
+    </tr>
+     <tr>
+      <td>11:25</td>
+      <th>_Coffee Break_</th>
+      <td>-</td>
+    </tr>
+     <tr>
+      <td>11:50</td>
+      <th>Session 3</th>
+      <td>-</td>
+    </tr>
+     <tr>
+      <td>11:50</td>
+      <th>Open discussion in thematic groups</th>
+      <td>-</td>
+    </tr>
+       <tr>
+      <td>12:15</td>
+      <th>End of the event</th>
+      <td>-</td>
+    </tr>
   </tbody>
 </table>
