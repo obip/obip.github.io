@@ -20,3 +20,9 @@ Objectives
 <a href="ai_governance_and_ethics_framework.pdf" class="btn btn-primary" download>
   <i class="fas fa-file-pdf"></i> Download PDF
 </a>
+
+## AI Governance and Ethics Framework-Checklist
+
+<a href="AI_Governance_and_Ethics_Framework_Checklist.pdf" class="btn btn-primary" download>
+  <i class="fas fa-file-pdf"></i> Download PDF
+</a>
