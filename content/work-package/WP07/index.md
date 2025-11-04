@@ -14,10 +14,9 @@ Objectives
  **[1]** The objective of this work package is to develop and evaluate a framework of governance and ethics principles as a template for implementations in healthcare institutions.
 
 ---
-title: 'AI Governance and Ethics Framework'
-links:
-  - icon: file-pdf
-    icon_pack: fas
-    name: PDF
-    url: ai_governance_and_ethics_framework.pdf
----
+
+## AI Governance and Ethics Framework
+
+<a href="ai_governance_and_ethics_framework.pdf" class="btn btn-primary" download>
+  <i class="fas fa-file-pdf"></i> Download PDF
+</a>
