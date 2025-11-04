@@ -12,3 +12,12 @@ The results of this WP will also influence the work in WP6 (service registry def
 Objectives
 
  **[1]** The objective of this work package is to develop and evaluate a framework of governance and ethics principles as a template for implementations in healthcare institutions.
+
+---
+title: 'AI Governance and Ethics Framework'
+links:
+  - icon: file-pdf
+    icon_pack: fas
+    name: PDF
+    url: ai_governance_and_ethics_framework.pdf
+---
