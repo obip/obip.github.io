@@ -27,6 +27,6 @@ Objectives
   <i class="fas fa-file-pdf"></i> Download PDF
 </a>
 
-## German Version
+##
 
-For completeness, the corresponding German version can be accessed via the following protected link: <a href="https://www.mik.uk-erlangen.de/aktuelles/nachrichten/detail/regelung-zur-nutzung-von-ki-anwendungen-am-uker/">German version </a>.
+For completeness, the corresponding German version can be accessed via the following protected link: <a href="https://www.mik.uk-erlangen.de/aktuelles/nachrichten/detail/regelung-zur-nutzung-von-ki-anwendungen-am-uker/">German version</a>.
