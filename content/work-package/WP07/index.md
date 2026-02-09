@@ -17,12 +17,14 @@ Objectives
 
 ## AI Governance and Ethics Framework
 
-<a href="ai_governance_and_ethics_framework.pdf" class="btn btn-primary" download>
+<a href="2026_02_05_AI_Governance_and_Ethics_Framework-eng.pdf" class="btn btn-primary" download>
   <i class="fas fa-file-pdf"></i> Download PDF
 </a>
 
 ## AI Governance and Ethics Framework-Checklist
 
-<a href="AI_Governance_and_Ethics_Framework_Checklist.pdf" class="btn btn-primary" download>
+<a href="2026_02_05_AI_Governance_and_Ethics_Framework-Checklist-eng.pdf" class="btn btn-primary" download>
   <i class="fas fa-file-pdf"></i> Download PDF
 </a>
+
+For completeness, the corresponding German version can be accessed via the following protected link: <a href="[Protected link to mik.uk-erlangen.de](https://www.mik.uk-erlangen.de/aktuelles/nachrichten/detail/regelung-zur-nutzung-von-ki-anwendungen-am-uker/)" target="_blank" rel="noopener noreferrer">German version (protected)</a>.
