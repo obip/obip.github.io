@@ -8,21 +8,34 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="font-bold text-lg mb-4">OMI Coordination</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              University Hospital Essen
-              <br />
-              Institute for AI in Medicine
-              <br />
-              Data Integration Center
-              <br />
-              Girardetstrasse 2, 45131 Essen
-            </p>
-            <a
-              href="mailto:Obioma.Pelka@uk-essen.de"
-              className="text-[#c0392b] text-sm font-medium mt-3 inline-block hover:underline"
-            >
-              Obioma.Pelka@uk-essen.de
-            </a>
+            <div className="flex items-start gap-4 mt-4">
+              <div className="w-16 h-16 rounded-full hover:rounded-xl overflow-hidden shrink-0 border-2 border-[#c0392b]/30 transition-all duration-300">
+                <Image
+                  src="/images/board/obioma-pelka.jpeg"
+                  alt="Dr. Obioma Pelka"
+                  width={64}
+                  height={64}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div>
+                <p className="text-white font-semibold text-sm">Dr. Obioma Pelka</p>
+                <p className="text-gray-400 text-xs">Scientific Coordinator</p>
+                <p className="text-gray-400 text-sm leading-relaxed mt-2">
+                  University Hospital Essen
+                  <br />
+                  Institute for AI in Medicine
+                  <br />
+                  Girardetstrasse 2, 45131 Essen
+                </p>
+                <a
+                  href="mailto:Obioma.Pelka@uk-essen.de"
+                  className="text-[#c0392b] text-sm font-medium mt-2 inline-block hover:underline"
+                >
+                  Obioma.Pelka@uk-essen.de
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Funding */}
