@@ -35,7 +35,7 @@ export const partners: Partner[] = [
     logo: "/images/partners/tum.png",
     investigators: [
       { name: "Prof. Dr. med. Rickmer Braren", role: "Institute of Diagnostic and Interventional Radiology", url: "https://www.radiologie.mri.tum.de/de/person/prof-dr-rickmer-f-braren" },
-      { name: "Prof. Dr. Martin Boeker", role: "TUM School of Medicine and Health", url: "https://www.kiinformatik.mri.tum.de/de/boeker-martin" },
+      { name: "Prof. Dr. Martin Boeker", role: "TUM School of Medicine and Health", url: "https://www.professoren.tum.de/boeker-martin" },
     ],
     focus: "Diagnostic and interventional radiology, AI in medicine, medical informatics",
     consortiumUrl: "https://difuture.de",
@@ -78,7 +78,7 @@ export const partners: Partner[] = [
     logo: "/images/partners/ukb.png",
     investigators: [
       { name: "Prof. Dr. med. Ulrike Attenberger", role: "Director, Institute of Diagnostic and Interventional Radiology", url: "https://www.ukbonn.de/radiologie/unser-team/direktorin-der-klinik/" },
-      { name: "PD Dr. med. Sven Zenker", role: "Medical-Scientific Technology Development and Coordination Unit", url: "https://www.ukbonn.de/ueber-uns/stabsstellen/mwtek/" },
+      { name: "Prof. Dr. med. Sven Zenker", role: "Medical-Scientific Technology Development and Coordination Unit", url: "https://www.ukbonn.de/ueber-uns/stabsstellen/mwtek/" },
     ],
     focus: "Medical imaging, diagnostic and interventional radiology, healthcare IT",
     consortiumUrl: "https://www.smith.care/en/",
