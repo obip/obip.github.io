@@ -28,20 +28,20 @@ export default function Footer() {
           {/* Funding */}
           <div>
             <h3 className="font-bold text-lg mb-4">Funded by</h3>
-            <div className="flex items-center gap-6 mt-4">
+            <div className="flex items-center gap-8 mt-4">
               <Image
-                src="/images/logos/bmbf.png"
-                alt="BMBF - German Federal Ministry of Education and Research"
-                width={200}
-                height={80}
-                className="h-16 w-auto"
+                src="/images/logos/mii-omi.jpg"
+                alt="Medical Informatics Initiative Germany – OMI"
+                width={160}
+                height={160}
+                className="h-20 w-auto rounded"
               />
               <Image
-                src="/images/logos/mii.svg"
-                alt="Medical Informatics Initiative (MII)"
+                src="/images/logos/bmbf.png"
+                alt="Sponsored by the Federal Ministry of Education and Research"
                 width={200}
                 height={80}
-                className="h-14 w-auto"
+                className="h-20 w-auto"
               />
             </div>
             <p className="text-gray-500 text-xs mt-4">
@@ -50,19 +50,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom logos */}
-        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col items-center gap-6">
-          <Image
-            src="/images/logos/logo-unten.png"
-            alt="OMI Partner Institutions"
-            width={800}
-            height={100}
-            className="w-full max-w-3xl h-auto opacity-70"
-          />
-          <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} Open Medical Inference. All rights
-            reserved.
-          </p>
+        <div className="border-t border-white/10 mt-12 pt-8 text-center text-gray-500 text-sm">
+          &copy; {new Date().getFullYear()} Open Medical Inference. All rights
+          reserved.
         </div>
       </div>
     </footer>
