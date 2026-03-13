@@ -4,8 +4,10 @@ export interface Partner {
   city: string;
   consortium: string;
   slug: string;
-  investigators: { name: string; role: string }[];
+  logo: string;
+  investigators: { name: string; role: string; url?: string }[];
   focus: string;
+  consortiumUrl?: string;
 }
 
 export const partners: Partner[] = [
@@ -15,12 +17,14 @@ export const partners: Partner[] = [
     city: "Essen",
     consortium: "Coordinator",
     slug: "ume",
+    logo: "/images/partners/ume.png",
     investigators: [
-      { name: "Prof. Dr. med. Felix Nensa", role: "Institute for Artificial Intelligence in Medicine" },
-      { name: "Prof. Dr. med. Dr. rer. nat. Jens Kleesiek", role: "Institute for Artificial Intelligence in Medicine" },
-      { name: "Tobias Brieden", role: "Data Integration Center" },
+      { name: "Prof. Dr. med. Felix Nensa", role: "Institute for Artificial Intelligence in Medicine", url: "https://ship-ai.ikim.nrw/author/felix-nensa/" },
+      { name: "Prof. Dr. med. Dr. rer. nat. Jens Kleesiek", role: "Institute for Artificial Intelligence in Medicine", url: "https://mml.ikim.nrw/authors/jens-kleesiek/" },
+      { name: "Tobias Brieden", role: "Data Integration Center", url: "https://diz.ikim.nrw/authors/tobias-brieden/" },
     ],
     focus: "Artificial intelligence in medicine and medical data integration",
+    consortiumUrl: "https://www.smith.care/en/",
   },
   {
     name: "TUM School of Medicine and Health",
@@ -28,11 +32,13 @@ export const partners: Partner[] = [
     city: "Munich",
     consortium: "DIFUTURE",
     slug: "tum",
+    logo: "/images/partners/tum.png",
     investigators: [
-      { name: "Prof. Dr. med. Rickmer Braren", role: "Institute of Diagnostic and Interventional Radiology" },
-      { name: "Prof. Dr. Martin Boeker", role: "TUM School of Medicine and Health" },
+      { name: "Prof. Dr. med. Rickmer Braren", role: "Institute of Diagnostic and Interventional Radiology", url: "https://www.radiologie.mri.tum.de/de/person/prof-dr-rickmer-f-braren" },
+      { name: "Prof. Dr. Martin Boeker", role: "TUM School of Medicine and Health", url: "https://www.kiinformatik.mri.tum.de/de/boeker-martin" },
     ],
     focus: "Diagnostic and interventional radiology, AI in medicine, medical informatics",
+    consortiumUrl: "https://difuture.de",
   },
   {
     name: "University Hospital Erlangen",
@@ -40,12 +46,14 @@ export const partners: Partner[] = [
     city: "Erlangen",
     consortium: "MIRACUM",
     slug: "uker",
+    logo: "/images/partners/uker.png",
     investigators: [
-      { name: "Prof. Dr. Hans-Ulrich Prokosch", role: "Institute of Medical Informatics, Biometry and Epidemiology" },
-      { name: "Prof. Dr. med. Thomas Ganslandt", role: "Institute of Medical Informatics, Biometry and Epidemiology" },
-      { name: "Prof. Dr. med. Matthias May", role: "Institute of Diagnostic and Interventional Radiology" },
+      { name: "Prof. Dr. Hans-Ulrich Prokosch", role: "Institute of Medical Informatics, Biometry and Epidemiology", url: "https://www.imi.med.fau.de/person/prof-dr-hans-ulrich-prokosch/" },
+      { name: "Prof. Dr. med. Thomas Ganslandt", role: "Institute of Medical Informatics, Biometry and Epidemiology", url: "https://www.imi.med.fau.de/person/prof-dr-thomas-ganslandt/" },
+      { name: "Prof. Dr. med. Matthias May", role: "Institute of Diagnostic and Interventional Radiology", url: "https://www.radiologie.uk-erlangen.de/kontakt/visitenkarte/matthias-may-229/" },
     ],
     focus: "Medical informatics, diagnostic and interventional radiology",
+    consortiumUrl: "https://www.miracum.org/en/",
   },
   {
     name: "Charite University Hospital Berlin",
@@ -53,11 +61,13 @@ export const partners: Partner[] = [
     city: "Berlin",
     consortium: "HiGHmed",
     slug: "cha",
+    logo: "/images/partners/cha.png",
     investigators: [
-      { name: "Prof. Dr. med. Tobias Penzkofer", role: "Center of Diagnostic and Interventional Radiology and Nuclear Medicine" },
-      { name: "Prof. Dr. Fabian Prasser", role: "Center of Health Data Sciences" },
+      { name: "Prof. Dr. med. Tobias Penzkofer", role: "Center of Diagnostic and Interventional Radiology and Nuclear Medicine", url: "https://radiologie.charite.de/metas/person/person/address_detail/pd_dr_med_tobias_penzkofer/" },
+      { name: "Prof. Dr. Fabian Prasser", role: "Center of Health Data Sciences", url: "https://www.bihealth.org/de/forschung/arbeitsgruppe/ag-prasser-medizininformatik" },
     ],
     focus: "Diagnostic and interventional radiology, nuclear medicine, health data sciences",
+    consortiumUrl: "https://www.highmed.org/en/home",
   },
   {
     name: "University Hospital Bonn",
@@ -65,11 +75,13 @@ export const partners: Partner[] = [
     city: "Bonn",
     consortium: "SMITH",
     slug: "ukb",
+    logo: "/images/partners/ukb.png",
     investigators: [
-      { name: "Prof. Dr. med. Ulrike Attenberger", role: "Director, Institute of Diagnostic and Interventional Radiology" },
-      { name: "PD Dr. med. Sven Zenker", role: "Medical-Scientific Technology Development and Coordination Unit" },
+      { name: "Prof. Dr. med. Ulrike Attenberger", role: "Director, Institute of Diagnostic and Interventional Radiology", url: "https://www.ukbonn.de/radiologie/unser-team/direktorin-der-klinik/" },
+      { name: "PD Dr. med. Sven Zenker", role: "Medical-Scientific Technology Development and Coordination Unit", url: "https://www.ukbonn.de/ueber-uns/stabsstellen/mwtek/" },
     ],
     focus: "Medical imaging, diagnostic and interventional radiology, healthcare IT",
+    consortiumUrl: "https://www.smith.care/en/",
   },
   {
     name: "University Hospital Cologne",
@@ -77,11 +89,13 @@ export const partners: Partner[] = [
     city: "Cologne",
     consortium: "HiGHmed",
     slug: "ukk",
+    logo: "/images/partners/ukk.png",
     investigators: [
-      { name: "PD Dr. med. Daniel Pinto Dos Santos", role: "Institute of Diagnostic and Interventional Radiology" },
-      { name: "Prof. Dr. Oya Beyan", role: "Medical Informatics Department" },
+      { name: "PD Dr. med. Daniel Pinto Dos Santos", role: "Institute of Diagnostic and Interventional Radiology", url: "https://radiologie.uk-koeln.de/institut/direktor-team/oberaerzte-und-funktionsoberaerzte/" },
+      { name: "Prof. Dr. Oya Beyan", role: "Medical Informatics Department", url: "https://medfak.uni-koeln.de/fakultaet/personalia-preise-ehrungen/w3-professur-fuer-medizininformatik-1" },
     ],
     focus: "Diagnostic and interventional radiology, medical informatics",
+    consortiumUrl: "https://www.highmed.org/en/home",
   },
   {
     name: "University Hospital Freiburg",
@@ -89,11 +103,13 @@ export const partners: Partner[] = [
     city: "Freiburg",
     consortium: "MIRACUM",
     slug: "ukfr",
+    logo: "/images/partners/ukfr.png",
     investigators: [
-      { name: "Prof. Dr. med. Elmar Kotter", role: "Institute of Diagnostic and Interventional Radiology" },
-      { name: "Dr. Julius Wehrle", role: "Data Integration Center" },
+      { name: "Prof. Dr. med. Elmar Kotter", role: "Institute of Diagnostic and Interventional Radiology", url: "https://www.uniklinik-freiburg.de/radiologie-en/team.html" },
+      { name: "Dr. Julius Wehrle", role: "Data Integration Center", url: "https://www.uniklinik-freiburg.de/datenintegrationszentrum/kontakt-und-team.html" },
     ],
     focus: "Medical informatics, data integration",
+    consortiumUrl: "https://www.miracum.org/en/",
   },
   {
     name: "University Hospital Frankfurt",
@@ -101,11 +117,13 @@ export const partners: Partner[] = [
     city: "Frankfurt",
     consortium: "MIRACUM",
     slug: "ukf",
+    logo: "/images/partners/ukf.png",
     investigators: [
-      { name: "Prof. Dr. Holger Storf", role: "Institute for Medical Informatics" },
-      { name: "Dr. med. Andreas Bucher", role: "Institute of Diagnostic and Interventional Radiology" },
+      { name: "Prof. Dr. Holger Storf", role: "Institute for Medical Informatics", url: "https://www.imi-frankfurt.de/das-team-der-mig/" },
+      { name: "Dr. med. Andreas Bucher", role: "Institute of Diagnostic and Interventional Radiology", url: "https://radiologie-uni-frankfurt.de/klinik/index_ger.html" },
     ],
     focus: "Medical informatics, diagnostic and interventional radiology",
+    consortiumUrl: "https://www.miracum.org/en/",
   },
   {
     name: "Hannover Medical School",
@@ -113,11 +131,13 @@ export const partners: Partner[] = [
     city: "Hannover",
     consortium: "HiGHmed",
     slug: "mhh",
+    logo: "/images/partners/mhh.png",
     investigators: [
-      { name: "Dr. med. Hinrich Winther", role: "Institute of Diagnostic and Interventional Radiology" },
-      { name: "Prof. Dr.-Ing. Steffen Oeltze-Jafra", role: "Peter L. Reichertz Institute for Medical Informatics" },
+      { name: "Dr. med. Hinrich Winther", role: "Institute of Diagnostic and Interventional Radiology", url: "https://www.mhh.de/institut-fuer-diagnostische-und-interventionelle-radiologie/experimentelle-radiologie/machine-learning-arbeitsgruppe" },
+      { name: "Prof. Dr.-Ing. Steffen Oeltze-Jafra", role: "Peter L. Reichertz Institute for Medical Informatics", url: "https://plri.de/en/team/steffen-oeltze-jafra" },
     ],
     focus: "Machine learning in radiology, medical informatics",
+    consortiumUrl: "https://www.highmed.org/en/home",
   },
   {
     name: "MOLIT Institute for Personalised Medicine",
@@ -125,10 +145,12 @@ export const partners: Partner[] = [
     city: "Heilbronn",
     consortium: "HiGHmed",
     slug: "molit",
+    logo: "/images/partners/molit.png",
     investigators: [
-      { name: "Dr. rer. medic. Stefan Sigle", role: "MOLIT Institute" },
+      { name: "Dr. rer. medic. Stefan Sigle", role: "MOLIT Institute", url: "https://www.linkedin.com/in/ssigle/" },
     ],
     focus: "Personalised medicine",
+    consortiumUrl: "https://www.highmed.org/en/home",
   },
   {
     name: "University Hospital Wuerzburg",
@@ -136,11 +158,13 @@ export const partners: Partner[] = [
     city: "Wuerzburg",
     consortium: "HiGHmed",
     slug: "ukw",
+    logo: "/images/partners/ukw.png",
     investigators: [
-      { name: "Prof. Dr. med. Bettina Baessler", role: "Institute of Diagnostic and Interventional Radiology" },
-      { name: "Prof. Dr. Rudiger Pryss", role: "Institute for Clinical Epidemiology and Biometry" },
+      { name: "Prof. Dr. med. Bettina Baessler", role: "Institute of Diagnostic and Interventional Radiology", url: "https://www.ukw.de/radiologie/team/radiologie-detail/name/baessler-bettina/" },
+      { name: "Prof. Dr. Rudiger Pryss", role: "Institute for Clinical Epidemiology and Biometry", url: "https://www.med.uni-wuerzburg.de/epidemiologie/institut/mitarbeiter/prof-dr-ruediger-pryss/" },
     ],
     focus: "Diagnostic radiology, clinical epidemiology and biometry",
+    consortiumUrl: "https://www.highmed.org/en/home",
   },
   {
     name: "University Medical Center Rostock",
@@ -148,11 +172,13 @@ export const partners: Partner[] = [
     city: "Rostock",
     consortium: "SMITH",
     slug: "umr",
+    logo: "/images/partners/umr.png",
     investigators: [
-      { name: "Prof. Dr. med. Marc-Andre Weber", role: "Institute of Diagnostic and Interventional Radiology, Pediatric Radiology and Neuroradiology" },
-      { name: "Dr. rer. hum. Martin Dyrba", role: "German Center for Neurodegenerative Diseases (DZNE)" },
+      { name: "Prof. Dr. med. Marc-Andre Weber", role: "Institute of Diagnostic and Interventional Radiology, Pediatric Radiology and Neuroradiology", url: "https://radiologie.med.uni-rostock.de/ueber-uns/mitarbeiter/prof-dr-med-marc-andre-weber-msc" },
+      { name: "Dr. rer. hum. Martin Dyrba", role: "German Center for Neurodegenerative Diseases (DZNE)", url: "https://www.dzne.de/forschung/projekte/explaination/" },
     ],
     focus: "Radiology, neurodegenerative disease research",
+    consortiumUrl: "https://www.smith.care/en/",
   },
   {
     name: "University Hospital Heidelberg",
@@ -160,11 +186,13 @@ export const partners: Partner[] = [
     city: "Heidelberg",
     consortium: "HiGHmed",
     slug: "ukhd",
+    logo: "/images/partners/ukhd.png",
     investigators: [
-      { name: "Dr. rsc. hum. Marco Nolden", role: "DKFZ German Cancer Research Center" },
-      { name: "Prof. Dr. Klaus Maier-Hein", role: "DKFZ German Cancer Research Center" },
+      { name: "Dr. rsc. hum. Marco Nolden", role: "DKFZ German Cancer Research Center", url: "https://www.dkfz.de/en/mic/team/people/Marco_Nolden.html" },
+      { name: "Prof. Dr. Klaus Maier-Hein", role: "DKFZ German Cancer Research Center", url: "https://www.dkfz.de/en/mic/team/people/Klaus_Maier-Hein.html" },
     ],
     focus: "Medical informatics, AI in medicine, cancer research",
+    consortiumUrl: "https://www.highmed.org/en/home",
   },
   {
     name: "University Hospital Ulm",
@@ -172,11 +200,13 @@ export const partners: Partner[] = [
     city: "Ulm",
     consortium: "DIFUTURE",
     slug: "uku",
+    logo: "/images/partners/uku.png",
     investigators: [
-      { name: "Prof. Dr. Hans Kestler", role: "Institute for Bioinformatics and Systems Biology" },
-      { name: "Prof. Dr. med. Meinrad Beer", role: "Institute of Diagnostic and Interventional Radiology" },
+      { name: "Prof. Dr. Hans Kestler", role: "Institute for Bioinformatics and Systems Biology", url: "https://www.uni-ulm.de/einrichtungen/uzwr/informationen/personen-und-organisation/mitglieder/prof-dr-hans-kestler/" },
+      { name: "Prof. Dr. med. Meinrad Beer", role: "Institute of Diagnostic and Interventional Radiology", url: "https://www.uniklinik-ulm.de/radiologie-diagnostische-und-interventionelle/team/prof-dr-m-beer.html" },
     ],
     focus: "Bioinformatics, systems biology, diagnostic radiology",
+    consortiumUrl: "https://difuture.de",
   },
   {
     name: "University Hospital Duesseldorf",
@@ -184,10 +214,12 @@ export const partners: Partner[] = [
     city: "Duesseldorf",
     consortium: "SMITH",
     slug: "ukd",
+    logo: "/images/partners/ukd.png",
     investigators: [
-      { name: "PD Dr. med. Christian Rubbert", role: "Institute of Diagnostic and Interventional Radiology, Neuroradiology" },
+      { name: "PD Dr. med. Christian Rubbert", role: "Institute of Diagnostic and Interventional Radiology, Neuroradiology", url: "https://www.uniklinik-duesseldorf.de/patienten-besucher/klinikeninstitutezentren/institut-fuer-diagnostische-und-interventionelle-radiologie/neuroradiologie/team" },
     ],
     focus: "Diagnostic and interventional radiology, neuroradiology",
+    consortiumUrl: "https://www.smith.care/en/",
   },
   {
     name: "Heilbronn University of Applied Sciences",
@@ -195,9 +227,11 @@ export const partners: Partner[] = [
     city: "Heilbronn",
     consortium: "DIFUTURE",
     slug: "hhn",
+    logo: "/images/partners/hhn.png",
     investigators: [
-      { name: "Prof. Dr. Christian Fegeler", role: "Faculty of Informatics" },
+      { name: "Prof. Dr. Christian Fegeler", role: "Faculty of Informatics", url: "https://www.hs-heilbronn.de/de/christian.fegeler" },
     ],
     focus: "Medical informatics",
+    consortiumUrl: "https://difuture.de",
   },
 ];

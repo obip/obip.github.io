@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { partners } from "@/data/partners";
 
 const consortia = ["DIFUTURE", "SMITH", "HiGHmed", "MIRACUM"];
@@ -48,8 +49,17 @@ export default function Partners() {
               href={`/partners/${partner.slug}`}
               className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow border border-gray-100 block"
             >
-              <div className="flex items-start justify-between mb-3">
-                <span className="text-2xl font-bold text-[#283142]">
+              <div className="flex items-center justify-center h-16 mb-4">
+                <Image
+                  src={partner.logo}
+                  alt={partner.name}
+                  width={120}
+                  height={60}
+                  className="max-h-14 w-auto object-contain"
+                />
+              </div>
+              <div className="flex items-start justify-between mb-2">
+                <span className="text-lg font-bold text-[#283142]">
                   {partner.abbr}
                 </span>
                 <span

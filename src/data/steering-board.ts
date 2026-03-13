@@ -3,6 +3,8 @@ export interface BoardMember {
   slug: string;
   role: string;
   institution: string;
+  image: string;
+  url: string;
   bio: string;
 }
 
@@ -12,48 +14,62 @@ export const boardMembers: BoardMember[] = [
     slug: "felix-nensa",
     role: "Project Management",
     institution: "University Medical Center Essen",
-    bio: "Felix Nensa leads the OMI project as principal investigator at the Institute for Artificial Intelligence in Medicine, University Hospital Essen. He oversees the overall project direction, strategic planning, and coordination across all work packages and partner institutions.",
+    image: "/images/board/felix-nensa.jpg",
+    url: "https://radiologie.uk-essen.de",
+    bio: "Felix Nensa holds the position of a Radiology professor specializing in AI at the Institute for Artificial Intelligence in Medicine and serves as a senior consultant radiologist at the Institute for Diagnostic and Interventional Radiology and Neuroradiology. Over an extended period, Felix has led a research team dedicated to creating machine learning-driven solutions for challenges in medical imaging.",
   },
   {
     name: "Prof. Dr. biol. hom. Hans-Ulrich Prokosch",
     slug: "hans-ulrich-prokosch",
     role: "MIRACUM Consortium",
     institution: "University Hospital Erlangen",
-    bio: "Hans-Ulrich Prokosch represents the MIRACUM consortium on the steering board. He heads the Institute of Medical Informatics, Biometry and Epidemiology at the University Hospital Erlangen and contributes expertise in medical informatics and interoperability standards.",
+    image: "/images/board/ulli-prokosch.jpeg",
+    url: "https://www.imi.med.fau.de/person/prof-dr-hans-ulrich-prokosch/",
+    bio: "Ulli Prokosch is the Director of the Erlangen-N\u00fcrnberg Chair of Medical Informatics and the Chief Information Officer of Erlangen University Hospital. Within the Medical Informatics Initiative he coordinates the MIRACUM consortium, as well as the MIDIA-Hub and the FDPG+ Project. His scientific focus in the last decade was on large-scale data sharing initiatives and complex IT infrastructures for medical research.",
   },
   {
     name: "Prof. Dr. med. Martin Boeker",
     slug: "martin-boeker",
     role: "DIFUTURE Consortium",
     institution: "TUM School of Medicine and Health",
-    bio: "Martin Boeker represents the DIFUTURE consortium. Based at the TUM School of Medicine and Health in Munich, he brings expertise in medical informatics and contributes to the reference client implementation (WP05).",
+    image: "/images/board/martin-boeker.jpeg",
+    url: "https://www.kiinformatik.mri.tum.de/de/boeker-martin",
+    bio: "Prof. Dr. M.C.Sc. Martin Boeker, an experienced scientist, specialized in medical biometry and statistics at the Institute of Medical Biometry and Statistics (IMBI) at the University Medical Center Freiburg after his time as a research assistant at the Hannover Medical School. Since 2010, he has headed the Department of Medical Informatics and Medical Data Science at IMBI.",
   },
   {
     name: "Prof. Dr. rer. nat. Fabian Prasser",
     slug: "fabian-prasser",
     role: "HiGHmed Consortium",
     institution: "Charite University Hospital Berlin",
-    bio: "Fabian Prasser represents the HiGHmed consortium. He leads the Center of Health Data Sciences at the Charite in Berlin, bringing expertise in health data management, privacy-preserving data processing, and medical data integration.",
+    image: "/images/board/fabian-prasser.jpg",
+    url: "https://www.bihealth.org/de/forschung/arbeitsgruppe/ag-prasser-medizininformatik",
+    bio: "Fabian Prasser holds the position of a Professor of Medical Informatics at Charit\u00e9 and chairs the Medical Informatics Group at the Berlin Institute of Health. Fabian is interested in innovative approaches to health data integration, data sharing and privacy-enhancing technologies with applications in medical research. He is involved in a wide variety of projects under the umbrella of the German Medical Informatics Initiative.",
   },
   {
     name: "PD Dr. med. Sven Zenker",
     slug: "sven-zenker",
     role: "SMITH Consortium",
     institution: "University Hospital Bonn",
-    bio: "Sven Zenker represents the SMITH consortium. Based at the Medical-Scientific Technology Development and Coordination Unit at the University Hospital Bonn, he contributes to the reference client implementation (WP05).",
+    image: "/images/board/sven-zenker.jpg",
+    url: "https://www.ukbonn.de/ueber-uns/stabsstellen/mwtek/",
+    bio: "Sven Zenker is the medical director of the Medical-Scientific Technology Development and Coordination Unit of the University Hospital Bonn. He is the current President of the Society for Complex Acute Illness (SCAI) and serves as Chairman of the Expert Panel Medical Devices \u201cRespiratory system, anaesthesiology, intensive care\u201d of the European Commission.",
   },
   {
     name: "Prof. Dr. med. Thomas Ganslandt",
     slug: "thomas-ganslandt",
     role: "WG Interoperability",
     institution: "University Hospital Erlangen",
-    bio: "Thomas Ganslandt represents the MII Working Group on Interoperability. At the Institute of Medical Informatics in Erlangen, he ensures that OMI aligns with broader MII interoperability standards and data sharing frameworks.",
+    image: "/images/board/thomas-ganslandt.png",
+    url: "https://www.imi.med.fau.de/person/prof-dr-thomas-ganslandt/",
+    bio: "Thomas Ganslandt is a professor for Medical Data Science at the Friedrich-Alexander University Erlangen-N\u00fcrnberg and Chief Medical Information Officer at Universit\u00e4tsklinikum Erlangen since 2021. He previously held the professorship for Medical Informatics at the Mannheim Medical Faculty of Heidelberg University from 2018 to 2021.",
   },
   {
     name: "Dr. med. Andreas Bucher",
     slug: "andreas-bucher",
     role: "Radiology",
     institution: "University Hospital Frankfurt",
-    bio: "Andreas Bucher represents the radiology perspective on the steering board. Based at the Institute of Diagnostic and Interventional Radiology at the University Hospital Frankfurt, he ensures clinical radiology requirements are addressed in the OMI platform.",
+    image: "/images/board/andi-bucher.jpeg",
+    url: "https://radiologie-uni-frankfurt.de/institute/our_team/index_eng.html",
+    bio: "Dr. Andreas Bucher is a senior physician at the Institute of Diagnostic and Interventional Radiology and Head of the Artificial Intelligence Research Unit at the Center of Radiology at Frankfurt University Hospital. The radiology specialist is project coordinator of the RACOON infrastructure project, the radiology cooperation at the NUM.",
   },
 ];
