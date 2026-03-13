@@ -15,8 +15,8 @@ export const boardMembers: BoardMember[] = [
     role: "Project Management",
     institution: "University Medical Center Essen",
     image: "/images/board/felix-nensa.jpg",
-    url: "https://radiologie.uk-essen.de",
-    bio: "Felix Nensa holds the position of a Radiology professor specializing in AI at the Institute for Artificial Intelligence in Medicine and serves as a senior consultant radiologist at the Institute for Diagnostic and Interventional Radiology and Neuroradiology. Over an extended period, Felix has led a research team dedicated to creating machine learning-driven solutions for challenges in medical imaging.",
+    url: "https://ikim.uk-essen.de",
+    bio: "Felix Nensa is a Professor at the Institute for Artificial Intelligence in Medicine (IKIM) at the University Medical Center Essen. He leads research dedicated to creating machine learning-driven solutions for challenges in medical imaging and serves as a senior consultant radiologist at the Institute for Diagnostic and Interventional Radiology and Neuroradiology.",
   },
   {
     name: "Prof. Dr. biol. hom. Hans-Ulrich Prokosch",
@@ -33,7 +33,7 @@ export const boardMembers: BoardMember[] = [
     role: "DIFUTURE Consortium",
     institution: "TUM School of Medicine and Health",
     image: "/images/board/martin-boeker.jpeg",
-    url: "https://www.kiinformatik.mri.tum.de/de/boeker-martin",
+    url: "https://www.professoren.tum.de/boeker-martin",
     bio: "Prof. Dr. M.C.Sc. Martin Boeker, an experienced scientist, specialized in medical biometry and statistics at the Institute of Medical Biometry and Statistics (IMBI) at the University Medical Center Freiburg after his time as a research assistant at the Hannover Medical School. Since 2010, he has headed the Department of Medical Informatics and Medical Data Science at IMBI.",
   },
   {
@@ -46,7 +46,7 @@ export const boardMembers: BoardMember[] = [
     bio: "Fabian Prasser holds the position of a Professor of Medical Informatics at Charit\u00e9 and chairs the Medical Informatics Group at the Berlin Institute of Health. Fabian is interested in innovative approaches to health data integration, data sharing and privacy-enhancing technologies with applications in medical research. He is involved in a wide variety of projects under the umbrella of the German Medical Informatics Initiative.",
   },
   {
-    name: "PD Dr. med. Sven Zenker",
+    name: "Prof. Dr. med. Sven Zenker",
     slug: "sven-zenker",
     role: "SMITH Consortium",
     institution: "University Hospital Bonn",
