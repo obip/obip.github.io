@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/images/logos/mii-omi.jpg" alt="OMI" width={48} height={48} className="h-10 w-auto rounded" />
+            <Image src="/images/logos/omi-logo.png" alt="OMI" width={40} height={40} className="h-10 w-10 rounded-full object-cover" />
             <span className="text-white font-bold text-xl tracking-tight">OMI</span>
           </Link>
 
