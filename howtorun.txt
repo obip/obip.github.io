@@ -1,0 +1,53 @@
+ All the content is in simple TypeScript data files. Just edit the relevant file in src/data/:
+
+  ┌──────────────────┬─────────────────────────────────┐
+  │     Content      │              File               │
+  ├──────────────────┼─────────────────────────────────┤
+  │ Events & agendas │ src/data/events.ts              │
+  ├──────────────────┼─────────────────────────────────┤
+  │ Work packages    │ src/data/work-packages.ts       │
+  ├──────────────────┼─────────────────────────────────┤
+  │ Partners         │ src/data/partners.ts            │
+  ├──────────────────┼─────────────────────────────────┤
+  │ Steering board   │ src/data/steering-board.ts      │
+  ├──────────────────┼─────────────────────────────────┤
+  │ Publications     │ src/components/Publications.tsx │
+  ├──────────────────┼─────────────────────────────────┤
+  │ News             │ src/components/News.tsx         │
+  └──────────────────┴─────────────────────────────────┘
+
+  Example — adding a new event:
+
+  Open src/data/events.ts and add a new object to the array:
+
+  {
+    slug: "12-plenary-meeting",
+    title: "12th Plenary Meeting",
+    date: "June 2026",
+    location: "Bonn",
+    type: "On-site",
+    image: "/images/events/plenary-12-bonn-2026.jpg",  // optional
+    days: [
+      {
+        label: "Day 1 – June 15, 2026",
+        items: [
+          { time: "09:00–09:30", topic: "Arrival & Coffee" },
+          { time: "09:30–10:00", topic: "Welcome", speaker: "Prof. Nensa" },
+        ],
+      },
+    ],
+  },
+
+  Example — adding a publication:
+
+  Open src/components/Publications.tsx and add a new entry to the array.
+
+  Then push:
+
+  cd /Users/obipelka/PycharmProjects/omi-website
+  git add -A
+  git commit -m "Add new event/publication"
+  git push origin main
+
+  GitHub Actions will automatically rebuild and deploy to omi.ikim.nrw within ~2 minutes. Event photos go in public/images/events/.
+

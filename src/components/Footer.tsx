@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer id="contact" className="bg-[#111827] text-white py-16">
@@ -26,20 +28,41 @@ export default function Footer() {
           {/* Funding */}
           <div>
             <h3 className="font-bold text-lg mb-4">Funded by</h3>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              German Federal Ministry of
-              <br />
-              Education and Research (BMBF)
-            </p>
+            <div className="flex items-center gap-6 mt-4">
+              <Image
+                src="/images/logos/bmbf.png"
+                alt="BMBF - German Federal Ministry of Education and Research"
+                width={200}
+                height={80}
+                className="h-16 w-auto"
+              />
+              <Image
+                src="/images/logos/mii.svg"
+                alt="Medical Informatics Initiative (MII)"
+                width={200}
+                height={80}
+                className="h-14 w-auto"
+              />
+            </div>
             <p className="text-gray-500 text-xs mt-4">
               Part of the Medical Informatics Initiative (MII)
             </p>
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-12 pt-8 text-center text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} Open Medical Inference. All rights
-          reserved.
+        {/* Bottom logos */}
+        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col items-center gap-6">
+          <Image
+            src="/images/logos/logo-unten.png"
+            alt="OMI Partner Institutions"
+            width={800}
+            height={100}
+            className="w-full max-w-3xl h-auto opacity-70"
+          />
+          <p className="text-gray-500 text-sm">
+            &copy; {new Date().getFullYear()} Open Medical Inference. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>

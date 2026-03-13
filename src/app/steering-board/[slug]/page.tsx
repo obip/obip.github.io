@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { boardMembers } from "@/data/steering-board";
 
 export function generateStaticParams() {
@@ -35,18 +36,27 @@ export default async function BoardMemberPage({
             &larr; Steering Board
           </Link>
           <div className="flex items-center gap-5 mt-6">
-            <div className="w-20 h-20 rounded-full bg-[#c0392b]/20 flex items-center justify-center shrink-0">
-              <span className="text-[#c0392b] font-bold text-3xl">
-                {member.name
-                  .split(" ")
-                  .filter((p) => p.length > 2 && !p.includes("."))
-                  .slice(-1)[0]?.[0] || "?"}
-              </span>
+            <div className="w-24 h-24 rounded-full overflow-hidden shrink-0 border-2 border-[#c0392b]/30">
+              <Image
+                src={member.image}
+                alt={member.name}
+                width={96}
+                height={96}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h1 className="text-2xl sm:text-3xl font-bold">{member.name}</h1>
               <p className="text-[#c0392b] font-medium mt-1">{member.role}</p>
               <p className="text-gray-400 text-sm mt-0.5">{member.institution}</p>
+              <a
+                href={member.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 text-sm mt-1 inline-block transition-colors"
+              >
+                View profile &rarr;
+              </a>
             </div>
           </div>
         </div>
