@@ -36,7 +36,7 @@ export default async function BoardMemberPage({
             &larr; Steering Board
           </Link>
           <div className="flex items-center gap-5 mt-6">
-            <div className="w-24 h-24 rounded-full overflow-hidden shrink-0 border-2 border-[#c0392b]/30">
+            <div className="w-24 h-24 rounded-full hover:rounded-xl overflow-hidden shrink-0 border-2 border-[#c0392b]/30 transition-all duration-300">
               <Image
                 src={member.image}
                 alt={member.name}

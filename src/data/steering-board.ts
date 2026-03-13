@@ -69,7 +69,7 @@ export const boardMembers: BoardMember[] = [
     role: "Radiology",
     institution: "University Hospital Frankfurt",
     image: "/images/board/andi-bucher.jpeg",
-    url: "https://radiologie-uni-frankfurt.de/institute/our_team/index_eng.html",
+    url: "https://radiologie-uni-frankfurt.de/clinic/our_team/index_eng.html",
     bio: "Dr. Andreas Bucher is a senior physician at the Institute of Diagnostic and Interventional Radiology and Head of the Artificial Intelligence Research Unit at the Center of Radiology at Frankfurt University Hospital. The radiology specialist is project coordinator of the RACOON infrastructure project, the radiology cooperation at the NUM.",
   },
 ];

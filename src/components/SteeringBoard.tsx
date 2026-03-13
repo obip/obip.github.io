@@ -20,7 +20,7 @@ export default function SteeringBoard() {
               href={`/steering-board/${member.slug}`}
               className="bg-white/5 border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-colors block"
             >
-              <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4 border-2 border-[#c0392b]/30">
+              <div className="w-20 h-20 rounded-full hover:rounded-xl overflow-hidden mx-auto mb-4 border-2 border-[#c0392b]/30 transition-all duration-300">
                 <Image
                   src={member.image}
                   alt={member.name}
