@@ -119,11 +119,11 @@ export const workPackages: WorkPackage[] = [
     downloads: [
       {
         label: "AI Governance and Ethics Framework (PDF)",
-        url: "https://omi.ikim.nrw/uploads/2026_02_05_AI_Governance_and_Ethics_Framework-eng.pdf",
+        url: "/uploads/2026_02_05_AI_Governance_and_Ethics_Framework-eng.pdf",
       },
       {
         label: "AI Governance and Ethics Framework \u2013 Checklist (PDF)",
-        url: "https://omi.ikim.nrw/uploads/2026_02_05_AI_Governance_and_Ethics_Framework-Checklist-eng.pdf",
+        url: "/uploads/2026_02_05_AI_Governance_and_Ethics_Framework-Checklist-eng.pdf",
       },
       {
         label: "AI Governance Framework \u2013 German Version (UKEr)",
