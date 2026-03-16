@@ -118,12 +118,12 @@ export const workPackages: WorkPackage[] = [
     ],
     downloads: [
       {
-        label: "AI Governance and Ethics Framework (PDF)",
-        url: "/uploads/2026_02_05_AI_Governance_and_Ethics_Framework-eng.pdf",
+        label: "AI Governance and Ethics Policy (PDF)",
+        url: "/uploads/2026_03_09_AI_Governance_and_Ethics_Policy-eng.pdf",
       },
       {
-        label: "AI Governance and Ethics Framework \u2013 Checklist (PDF)",
-        url: "/uploads/2026_02_05_AI_Governance_and_Ethics_Framework-Checklist-eng.pdf",
+        label: "AI Governance and Ethics Policy \u2013 Checklist (PDF)",
+        url: "/uploads/2026_03_09_AI_Governance_and_Ethics_Policy-Checklist-eng.pdf",
       },
       {
         label: "AI Governance Framework \u2013 German Version (UKEr)",
