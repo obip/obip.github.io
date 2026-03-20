@@ -143,14 +143,14 @@ export const partners: Partner[] = [
     name: "MOLIT Institute for Personalised Medicine",
     abbr: "MOLIT",
     city: "Heilbronn",
-    consortium: "HiGHmed",
+    consortium: "MII",
     slug: "molit",
     logo: "/images/partners/molit.png",
     investigators: [
       { name: "Dr. rer. medic. Stefan Sigle", role: "MOLIT Institute", url: "https://www.linkedin.com/in/ssigle/" },
     ],
     focus: "Personalised medicine",
-    consortiumUrl: "https://www.highmed.org/en/home",
+    consortiumUrl: "https://www.medizininformatik-initiative.de/",
   },
   {
     name: "University Hospital Wuerzburg",
