@@ -77,7 +77,7 @@ export const partners: Partner[] = [
     slug: "ukb",
     logo: "/images/partners/ukb.png",
     investigators: [
-      { name: "Prof. Dr. med. Ulrike Attenberger", role: "Director, Institute of Diagnostic and Interventional Radiology", url: "https://www.ukbonn.de/radiologie/unser-team/direktorin-der-klinik/" },
+      { name: "Prof. Dr. Shadi Albarqouni", role: "Director, Albarqouni Lab", url: "https://albarqouni.github.io" },
       { name: "Prof. Dr. med. Sven Zenker", role: "Medical-Scientific Technology Development and Coordination Unit", url: "https://www.ukbonn.de/ueber-uns/stabsstellen/mwtek/" },
     ],
     focus: "Medical imaging, diagnostic and interventional radiology, healthcare IT",
