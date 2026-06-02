@@ -1,4 +1,24 @@
-const news = [
+import Image from "next/image";
+
+interface NewsItem {
+  title: string;
+  date: string;
+  summary: string;
+  link?: string;
+  linkLabel?: string;
+  image?: string;
+}
+
+const news: NewsItem[] = [
+  {
+    title: "OMI WP7 presented at Medical Informatics Europe (MIE) 2026",
+    date: "May 28, 2026",
+    summary:
+      "Timo Apfelbacher (FAU Erlangen) presented OMI Work Package 7 at MIE 2026, on developing and evaluating an AI Governance and Ethics Framework for university hospitals. The accompanying paper appears in Studies in Health Technology and Informatics, Vol. 336.",
+    link: "https://doi.org/10.3233/SHTI260265",
+    linkLabel: "Read the paper",
+    image: "/images/news/mie-2026-wp7.jpg",
+  },
   {
     title: "Project Secures Second Funding Phase!",
     date: "May 10, 2024",
@@ -44,6 +64,16 @@ export default function News() {
               key={item.title}
               className="bg-[#f8fafc] rounded-xl p-6 hover:shadow-lg transition-shadow"
             >
+              {item.image && (
+                <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden mb-4">
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              )}
               <p className="text-[#c0392b] text-sm font-medium mb-2">
                 {item.date}
               </p>
@@ -53,6 +83,16 @@ export default function News() {
               <p className="text-gray-500 text-sm leading-relaxed">
                 {item.summary}
               </p>
+              {item.link && (
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-3 text-[#c0392b] text-sm font-medium hover:underline"
+                >
+                  {item.linkLabel ?? "Read more"} →
+                </a>
+              )}
             </div>
           ))}
         </div>
