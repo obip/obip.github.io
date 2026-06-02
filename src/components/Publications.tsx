@@ -2,13 +2,25 @@
 
 import { useState } from "react";
 
-const publications = [
+interface Publication {
+  title: string;
+  authors: string;
+  year: string;
+  doi: string;
+  type: string;
+  abstract?: string;
+  journal?: string;
+  month?: number;
+}
+
+const publications: Publication[] = [
   {
     title:
       "Democratizing AI in Healthcare with Open Medical Inference (OMI): Protocols, Data Exchange, and AI Integration",
     authors:
       "O. Pelka, S. Sigle, P. Werner, S. T. Schweizer, A. Iancu, L. Scherer, N. A. Kamzol, J. H. Eil, T. Apfelbacher, D. Seletkov, T. Susetzky, M. S. May, A. M. Bucher, C. Fegeler, M. Boeker, R. Braren, H.-U. Prokosch, F. Nensa",
     year: "2026",
+    month: 2,
     doi: "10.1055/a-2651-6653",
     type: "Journal Article",
     journal: "RoFo",
@@ -21,6 +33,7 @@ const publications = [
     authors:
       "T. Apfelbacher, M. Christoforaki, S.-R. Stump, M. Ullrich, E. Kotter, H.-U. Prokosch, T. Ganslandt",
     year: "2026",
+    month: 5,
     doi: "10.3233/shti260265",
     type: "Conference Paper",
     abstract:
@@ -62,6 +75,12 @@ const publications = [
 export default function Publications() {
   const [expandedDoi, setExpandedDoi] = useState<string | null>(null);
 
+  const sortedPublications = [...publications].sort(
+    (a, b) =>
+      Number(b.year) * 100 + (b.month ?? 0) -
+      (Number(a.year) * 100 + (a.month ?? 0)),
+  );
+
   return (
     <section id="publications" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,7 +94,7 @@ export default function Publications() {
         </div>
 
         <div className="space-y-6 max-w-4xl mx-auto">
-          {publications.map((pub) => (
+          {sortedPublications.map((pub) => (
             <div
               key={pub.doi}
               className="bg-[#f8fafc] rounded-xl p-6 hover:shadow-lg transition-shadow border-l-4 border-[#c0392b] cursor-pointer"

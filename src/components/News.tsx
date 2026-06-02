@@ -54,6 +54,9 @@ const news: NewsItem[] = [
 ];
 
 export default function News() {
+  const sortedNews = [...news].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+  );
   return (
     <section id="news" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -67,7 +70,7 @@ export default function News() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {news.map((item) => (
+          {sortedNews.map((item) => (
             <div
               key={item.title}
               className="bg-[#f8fafc] rounded-xl p-6 hover:shadow-lg transition-shadow"
