@@ -20,6 +20,14 @@ const news: NewsItem[] = [
     image: "/images/news/mie-2026-wp7.jpg",
   },
   {
+    title: "OMI Overview Paper Published in RöFo",
+    date: "Sep 29, 2025",
+    summary:
+      "The OMI consortium’s overview paper, “Democratizing AI in Healthcare with Open Medical Inference (OMI): Protocols, Data Exchange, and AI Integration” (Pelka et al.), was published in RöFo. It introduces the OMI platform, its open protocols and standardized data formats such as FHIR and DICOMweb, and its governance approach to ethical AI use.",
+    link: "https://doi.org/10.1055/a-2651-6653",
+    linkLabel: "Read the paper",
+  },
+  {
     title: "Project Secures Second Funding Phase!",
     date: "May 10, 2024",
     summary:
