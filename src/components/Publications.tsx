@@ -17,6 +17,17 @@ const publications = [
   },
   {
     title:
+      "Expert Evaluation of an AI Governance and Ethics Framework Implemented at a University Hospital",
+    authors:
+      "T. Apfelbacher, M. Christoforaki, S.-R. Stump, M. Ullrich, E. Kotter, H.-U. Prokosch, T. Ganslandt",
+    year: "2026",
+    doi: "10.3233/shti260265",
+    type: "Conference Paper",
+    abstract:
+      "This study reports an expert evaluation of an AI governance and ethics framework implemented at a university hospital. Project partners provided feedback on the framework and its accompanying checklist. The framework was assessed as a promising approach for implementing AI systems, while the evaluation also identified areas requiring clarification and practical improvement for daily operations.",
+  },
+  {
+    title:
       "OMI Meets RACOON: Integration von IT-Infrastrukturen aus Medizinischer Informatik und Radiologie",
     authors: "H.-U. Prokosch, F. Nensa, T. Penzkofer",
     year: "2024",
