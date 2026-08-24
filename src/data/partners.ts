@@ -91,7 +91,7 @@ export const partners: Partner[] = [
     slug: "ukk",
     logo: "/images/partners/ukk.png",
     investigators: [
-      { name: "PD Dr. med. Daniel Pinto Dos Santos", role: "Institute of Diagnostic and Interventional Radiology", url: "https://radiologie.uk-koeln.de/institut/direktor-team/oberaerzte-und-funktionsoberaerzte/" },
+      { name: "PD Dr. Simon Lennartz", role: "Institute of Diagnostic and Interventional Radiology", url: "https://radiologie.uk-koeln.de/institut/direktor-team/oberaerzte/" },
       { name: "Prof. Dr. Oya Beyan", role: "Medical Informatics Department", url: "https://medfak.uni-koeln.de/fakultaet/personalia-preise-ehrungen/w3-professur-fuer-medizininformatik-1" },
     ],
     focus: "Diagnostic and interventional radiology, medical informatics",
