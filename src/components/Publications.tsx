@@ -16,6 +16,29 @@ interface Publication {
 const publications: Publication[] = [
   {
     title:
+      "Interoperable Clinical Data Integration for Distributed Medical AI: The Open Medical Inference Gateway",
+    authors:
+      "O. Pelka, J. H. Eil, K. Manjunatha, N. Singh, J. Omeirat, S. Sigle, G. Mathes, S. T. Schweizer, S. R. Stump, G. Girdziunaite, F. Nensa",
+    year: "2026",
+    doi: "10.3205/mibe000309",
+    type: "Journal Article",
+    journal: "GMS Medizinische Informatik, Biometrie und Epidemiologie (MIBE)",
+    abstract:
+      "The Open Medical Inference (OMI) Gateway provides an interoperable, FHIR-based infrastructure for distributed AI inference in clinical settings, enabling clinical data integration across organizational boundaries for medical AI services.",
+  },
+  {
+    title:
+      "A Standards-Based Infrastructure for Distributed AI Inference in Medical Imaging",
+    authors: "O. Pelka, N. A. Kamzol, K. Manjunatha, N. Singh, J. Omeirat, F. Nensa",
+    year: "2026",
+    doi: "10.3205/mibe000310",
+    type: "Journal Article",
+    journal: "GMS Medizinische Informatik, Biometrie und Epidemiologie (MIBE)",
+    abstract:
+      "This work presents a standards-based DICOMweb adapter that connects legacy imaging infrastructure to the Open Medical Inference (OMI) protocol, enabling distributed AI inference in medical imaging without requiring changes to existing clinical systems.",
+  },
+  {
+    title:
       "Democratizing AI in Healthcare with Open Medical Inference (OMI): Protocols, Data Exchange, and AI Integration",
     authors:
       "O. Pelka, S. Sigle, P. Werner, S. T. Schweizer, A. Iancu, L. Scherer, N. A. Kamzol, J. H. Eil, T. Apfelbacher, D. Seletkov, T. Susetzky, M. S. May, A. M. Bucher, C. Fegeler, M. Boeker, R. Braren, H.-U. Prokosch, F. Nensa",
