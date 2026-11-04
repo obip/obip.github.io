@@ -20,6 +20,7 @@ const publications: Publication[] = [
     authors:
       "O. Pelka, J. H. Eil, K. Manjunatha, N. Singh, J. Omeirat, S. Sigle, G. Mathes, S. T. Schweizer, S. R. Stump, G. Girdziunaite, F. Nensa",
     year: "2026",
+    month: 9,
     doi: "10.3205/mibe000309",
     type: "Journal Article",
     journal: "GMS Medizinische Informatik, Biometrie und Epidemiologie (MIBE)",
@@ -31,6 +32,7 @@ const publications: Publication[] = [
       "A Standards-Based Infrastructure for Distributed AI Inference in Medical Imaging",
     authors: "O. Pelka, N. A. Kamzol, K. Manjunatha, N. Singh, J. Omeirat, F. Nensa",
     year: "2026",
+    month: 9,
     doi: "10.3205/mibe000310",
     type: "Journal Article",
     journal: "GMS Medizinische Informatik, Biometrie und Epidemiologie (MIBE)",

@@ -11,6 +11,14 @@ interface NewsItem {
 
 const news: NewsItem[] = [
   {
+    title: "Two OMI Papers Presented at GMDS 2026",
+    date: "Sep 27, 2026",
+    summary:
+      "The OMI consortium presented two papers at the 71. Jahrestagung der GMDS in Freiburg: “Interoperable Clinical Data Integration for Distributed Medical AI: The Open Medical Inference Gateway” and “A Standards-Based Infrastructure for Distributed AI Inference in Medical Imaging” (both Pelka et al.), covering the OMI Gateway and the DICOMweb adapter for legacy imaging systems. Both papers are published in GMS Medizinische Informatik, Biometrie und Epidemiologie (MIBE).",
+    link: "https://doi.org/10.3205/mibe000309",
+    linkLabel: "Read the papers",
+  },
+  {
     title: "OMI WP7 presented at Medical Informatics Europe (MIE) 2026",
     date: "May 28, 2026",
     summary:
