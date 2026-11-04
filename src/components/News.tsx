@@ -11,12 +11,21 @@ interface NewsItem {
 
 const news: NewsItem[] = [
   {
-    title: "Two OMI Papers Presented at GMDS 2026",
+    title: "OMI WP4: Oral Presentation at GMDS 2026",
     date: "Sep 27, 2026",
     summary:
-      "The OMI consortium presented two papers at the 71. Jahrestagung der GMDS in Freiburg: “Interoperable Clinical Data Integration for Distributed Medical AI: The Open Medical Inference Gateway” and “A Standards-Based Infrastructure for Distributed AI Inference in Medical Imaging” (both Pelka et al.), covering the OMI Gateway and the DICOMweb adapter for legacy imaging systems. Both papers are published in GMS Medizinische Informatik, Biometrie und Epidemiologie (MIBE).",
+      "Obioma Pelka gave an oral presentation of “Interoperable Clinical Data Integration for Distributed Medical AI: The Open Medical Inference Gateway” (Pelka et al.) at the 71. Jahrestagung der GMDS in Freiburg, introducing the OMI Gateway's FHIR-based infrastructure for distributed AI inference. The paper is published in GMS Medizinische Informatik, Biometrie und Epidemiologie (MIBE).",
     link: "https://doi.org/10.3205/mibe000309",
-    linkLabel: "Read the papers",
+    linkLabel: "Read the paper",
+  },
+  {
+    title: "OMI WP3: DICOM-RST Poster at GMDS 2026",
+    date: "Sep 27, 2026",
+    summary:
+      "The OMI consortium presented the poster “DICOM-RST: A Standards-Based Adapter for Federated AI Inference in Medical Imaging” (Pelka et al.) at the 71. Jahrestagung der GMDS in Freiburg, covering the DICOMweb adapter that connects legacy PACS systems to the OMI protocol. The accompanying paper, “A Standards-Based Infrastructure for Distributed AI Inference in Medical Imaging,” is published in GMS Medizinische Informatik, Biometrie und Epidemiologie (MIBE).",
+    link: "https://doi.org/10.3205/mibe000310",
+    linkLabel: "Read the paper",
+    image: "/images/news/gmds-2026-dicom-rst-poster.jpg",
   },
   {
     title: "OMI WP7 presented at Medical Informatics Europe (MIE) 2026",
